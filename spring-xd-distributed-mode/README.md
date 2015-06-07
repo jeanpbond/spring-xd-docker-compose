@@ -2,7 +2,8 @@
 
 Using docker-compose to run the containers :
 	
-	cd spring-xd-distributed-mode
+	git clone https://github.com/jeanpbond/spring-xd-docker-compose.git
+	cd spring-xd-docker-compose/spring-xd-distributed-mode
     docker-compose up -d
 	
 To connect to the running admin server, use the springxd/shell container. dockerhost must be replace by your host running docker : 
